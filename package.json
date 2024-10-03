@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon backend/server.js",
+    "dev": "nodemon backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "cross-env NODE_ENV=production nodemon backend/server.js"
+    "start": " node backend/server.js"
   },
   "engines": {
     "node": "20.x"
@@ -16,7 +16,6 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "nodemon": "^3.1.7"
   },
   "dependencies": {
