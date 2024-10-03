@@ -10,8 +10,11 @@
     "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
 
   },
+  "engines": {
+    "node": "20.x"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Francisco Bourquin",
   "license": "ISC",
   "description": "",
   "devDependencies": {
